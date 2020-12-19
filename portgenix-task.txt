@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portgenix</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="jquery.numberedtextarea.js"></script>
+
+
+</head>
+<body>
+	<div class="container-fluid">
+	<!-- Navigation Bar -->
+		<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#" style="background-color: lawngreen;"><i class="fa fa-code" aria-hidden="true"></i></a>
+  <a class="navbar-brand" href="#"><h2><strong>Coder</strong>Docs</h2></a>
+  <!-- spacing -->
+  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
+  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
+  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
+  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
+ <!-- Form element with input -->
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+  </form> 
+  <!-- Unordered list-->
+  <ul class="navbar-nav" >
+    <li class="nav-item">
+      <a href="#" style="color: lawngreen;"><i class="fab fa-github"></i></a>
+    </li>&nbsp;&nbsp;
+    <li class="nav-item">
+      <a  href="#" style="color: lawngreen;"><i class="fab fa-twitter-square"></i></a>
+    </li>&nbsp;&nbsp;  
+     <li class="nav-item">
+      <a  href="#" style="color: lawngreen;"><i class="fab fa-python"></i></a>
+    </li>&nbsp;&nbsp;
+     <li class="nav-item">
+      <a  href="#" style="color: lawngreen;"><i class="fab fa-product-hunt"></i></a>
+    </li>&nbsp;&nbsp;
+  </ul>
+    <button class="btn btn-success" type="submit">Download</button>
+</nav>
+	<!-- NavBar Ends here -->
+	
+	<!-- Side Section part starts here-->
+	<div class="sidebar light-grey bar-block" style="width:25%;float: left;">
+  <h4 class="bar-item" ><i class="fas fa-brush" style="color: lawngreen;"></i>&nbsp;Introduction</h4>
+  <ul style="list-style-type: none;">
+  	<li><a style='color: grey;' href="#" class="bar-item button">Sectionitem 1.1</a></li>
+  	<li><a style='color: grey;' href="#" class="bar-item button">Sectionitem 1.2</a></li>
+  	<li><a style='color: grey;'href="#" class="bar-item button">Sectionitem 1.3</a></li>
+  	<li><a style='color: grey;' href="#" class="bar-item button">Sectionitem 1.4</a></li>
+  	<li><a style='color: grey;'href="#" class="bar-item button">Sectionitem 1.5</a></li>
+  	<li><a style='color: grey;'href="#" class="bar-item button">Sectionitem 1.6</a></li>
+  	<li><a style='color: grey;'href="#" class="bar-item button">Sectionitem 1.7</a></li>
+  	<li><a style='color: grey;'href="#" class="bar-item button">Sectionitem 1.8</a></li> 
+  </ul> 
+  <h4 class="bar-item" ><i class="far fa-arrow-alt-circle-down" style="color: lawngreen;"></i>&nbsp;Installation</h4>
+  <ul style="list-style-type: none;color: grey;">
+  	<li><a style='color: grey;' href="#" class="bar-item button">Sectionitem 2.1</a></li>
+  	<li><a style='color: grey;' href="#" class="bar-item button">Sectionitem 2.2</a></li>
+  	<li><a style='color: grey;'href="#" class="bar-item button">Sectionitem 2.3</a></li> 
+  </ul>
+   <h4 class="bar-item" ><i class="fas fa-archive" style="color: lawngreen;"></i>&nbsp;APIS</h4>
+  <ul style="list-style-type: none;color: grey;">
+  	<li><a style='color: grey;' href="#" class="bar-item button">Sectionitem 3.1</a></li>
+  	<li><a style='color: grey;' href="#" class="bar-item button">Sectionitem 3.2</a></li>
+  	<li><a style='color: grey;'href="#" class="bar-item button">Sectionitem 3.3</a></li> 
+  </ul> 
+  <h4 class="bar-item" ><i class="fas fa-cogs" style="color: lawngreen;"></i>&nbsp;Integrations</h4>
+  <ul style="list-style-type: none;color: grey;">
+  	<li><a style='color: grey;' href="#" class="bar-item button">Sectionitem 4.1</a></li>
+  	<li><a style='color: grey;' href="#" class="bar-item button">Sectionitem 4.2</a></li>
+  	<li><a style='color: grey;'href="#" class="bar-item button">Sectionitem 4.3</a></li> 
+  </ul>
+  
+</div>
+<!-- Side Section part starts here-->
+
+<!-- Content part of the page-->
+<div style="margin-left:25%">
+
+<div class="container">
+  <h1>Introduction</h1>
+  <p>Section intro goes here.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, eos repudiandae explicabo natus vero maiores aliquid repellat amet similique suscipit accusantium dolores ipsam laborum fugit facilis in eius rem libero ab consectetur accusamus est tenetur! Fugit ut totam, aperiam cum!</p>
+  <p><strong>Gitub code Example:</strong></p>
+  <p>You can embed your code snippents using Gitub gists</p>
+   <div class="container" style="border: 2px solid black;width:800px;height:380px;">
+ 	
+	  1&nbsp;function $initHighlight(block,cls){ <br>
+	  2&nbsp;  try{ <br>
+	  3&nbsp;	  if(cls.search(/\bno/-highlight\b/) != -1) <br>
+	  4&nbsp;	   return process(block,true,0x0f) <br>
+	  5&nbsp;	        'class="${cls}"'; <br>
+	  6&nbsp;	}catch(e){ <br>
+	  7&nbsp;		/* Handle Exception */ <br>
+	  8&nbsp;		
+	  9&nbsp;	} <br>
+	 10&nbsp;  for(var i=0/2;i < classes.leghth;i++){ <br>
+	 11&nbsp;	  if(checkcondition{classes[i]} === undefined) <br>
+	 12&nbsp;		  console.log("undefined"); <br>
+	 13&nbsp;  } <br>
+	 14&nbsp;} <br>
+	 15&nbsp;export $initHighlight <br><br>
+	 <footer>highlightjs-demo.js hosted with &hearts;by Github <span style="float: right">view raw</span></footer>
+	 
+ </div><br>
+  <p><strong>Hightlight.js Example</strong></p>
+  <p>You can embed your code using Highlight.js.It supports 198 lanuages and 89 styles.</p>
+
+</div>
+
+	</div>
+
+</body>
+</html>
